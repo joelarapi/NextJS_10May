@@ -1,0 +1,287 @@
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.main-navbar {
+  background-color: #1e2933;
+}
+
+.navbar-items {
+  height: 50px;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.nav-word {
+  padding: 0.5em 0.75em 0.4em;
+  font-size: 1em;
+  line-height: 1.75em;
+
+  color: silver;
+}
+
+.nav-word:hover {
+  cursor: pointer;
+  background-color: #10161b;
+  color: white;
+  transition: 0.3s;
+}
+
+.flex {
+  display: flex;
+}
+
+header {
+  background-color: #2b5b84;
+}
+.python-img {
+  width: 280px;
+  height: 80px;
+}
+
+.donate-button {
+  background-color: #ffd343;
+  margin: 0px 8px 0px 0px;
+  color: #4d4d4d;
+  padding: 6.4px 12px 5.6px;
+  text-align: center;
+  width: 75px;
+  height: 32px;
+  border: 1px solid rgb(255, 166, 0);
+  border-radius: 3px;
+}
+
+.donate-button:hover {
+  cursor: pointer;
+  background-color: #fdcf50;
+}
+
+.search-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.search-input {
+  width: 228px;
+  height: 37px;
+}
+
+.submit-search-button {
+  background-color: #2b5b84;
+  color: #e6e8ea;
+  width: 40px;
+  height: 46px;
+  border-radius: 6px;
+  border: 1px solid #999;
+}
+
+.search-field {
+  display: flex;
+  background-color: #1e2933;
+  padding: 0.75em 1em;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.socialize {
+  color: #999;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.header-container {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.a-center {
+  align-items: center;
+}
+
+.main-nav {
+  text-align: center;
+  background-color: #2d618c;
+  background-image: linear-gradient(#3776ab 30%, #2d618c 95%);
+  border-top: 1px solid #629ccd;
+  border-bottom: 1px solid #18334b;
+  border-radius: 8px;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.navigation-menu {
+  text-align: center;
+  list-style: none;
+  list-style-image: none;
+  display: flex;
+  font-size: 1.125em;
+  color: #e6e8ea;
+  justify-content: space-evenly;
+}
+
+.navigation-menu ol {
+  width: 100%;
+  display: block;
+}
+
+.navigation-menu ol:hover {
+  cursor: pointer;
+  background-color: #2d618c;
+}
+
+.c-gray {
+  color: #4d4d4d;
+}
+
+.fibonacci-text {
+  background-color: #10161b;
+  width: 490px;
+  height: 290px;
+  padding: 20px 24px;
+}
+
+.c-green {
+  color: green;
+}
+
+.c-white {
+  color: white;
+}
+
+.functions-text {
+  background-color: #1c3b56;
+  width: 490px;
+  height: 290px;
+  padding: 20px 40px;
+}
+
+.functions-text h1 {
+  color: #ffd343;
+}
+
+.functions-text span {
+  color: #ffd343;
+  text-decoration-line: underline;
+}
+
+.functions-text p {
+  color: #e6e8ea;
+}
+
+.header-banner {
+  margin: auto;
+  width: 60%;
+  display: flex;
+}
+
+.functions-text button {
+  background-color: #2b5b84;
+  color: #e6e8ea;
+  padding: 6.4px 12px 5.6px;
+  width: 34px;
+  height: 30px;
+  font-size: 16px;
+  margin: 0 0 7px 8px;
+  border: 1px solid #18334b;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.functions-text button:hover {
+  color: #fdcf50;
+  background-color: #3776ab;
+}
+
+.bottom-header-text {
+  font-size: 24px;
+  width: 70%;
+  margin: auto;
+  word-wrap: 450px;
+  color: #e6e8ea;
+  height: 70px;
+  line-height: 1.4em;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.bottom-header-text span {
+  color: #fdcf50;
+  text-decoration-line: underline;
+}
+
+.row{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.img-res{
+  width: 21px;
+  height: 21px;
+}
+
+.c-l-blue{
+color: #3776ab;
+cursor: pointer;
+}
+
+.small-card{
+  border-top: 3px solid #3776ab;
+}
+
+.list-widgets{
+  width: 70%;
+  margin: auto;
+  display: flex;
+}
+
+.widget-title{
+  justify-content: space-between;
+  margin: 0 5px;
+}
+
+.widget-item{
+  border-top:5px solid #3776ab;
+}
+
+.widget-item li{
+  align-items: center;
+}
+
+.widget-item p{
+  color: #2d618c;
+  margin-left:15px;
+}
+
+blockquote{
+  background-color: #fdcf50;
+font-style: italic;
+font-size: 18px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:#6666;
+font-size: 1.125em;
+        padding: 1em 1.4em 1.3em;
+
+}
+
+.medium-widget{
+  border-top: 4px solid #75a8d3;
+}
