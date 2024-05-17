@@ -350,4 +350,10 @@ li{
   margin: auto;
   padding: 1.5em 1.75em;
   margin-top: 20px;
+  color: white;
+  display: flex;
+}
+
+.c-yellow{
+  color: #fdcf50;
 }
