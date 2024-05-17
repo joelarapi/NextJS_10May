@@ -285,3 +285,69 @@ font-size: 1.125em;
 .medium-widget{
   border-top: 4px solid #75a8d3;
 }
+
+
+.tag-wrapper .tag {
+    white-space: nowrap;
+    color: #666;
+    font-size: 0.875em;
+    vertical-align: baseline;
+    padding: .2em .4em .1em;
+    background-color: #e6e8ea;
+    border-top: 1px solid #f2f4f6;
+    border-bottom: 1px solid #caccce;
+}
+
+
+b, strong {
+  font-family: SourceSansProBold, Arial, sans-serif;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+
+li{
+  list-style-type: none;
+}
+
+.menu-row b{
+  margin-right: 10px;
+}
+
+.menu-row li{
+  margin-top: 5px;
+}
+
+.idk{
+  background-color: #d8d8de;
+  width: 70%;
+  margin: auto;
+  padding: 24px 28px;
+  height: 85px;
+  color: #4d4d4d;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.end-button {
+  background-color: #ffd343;
+  margin: 0px 8px 0px 0px;
+  color: #4d4d4d;
+  padding: 6.4px 12px 5.6px;
+  text-align: center;
+  width: 140px;
+  height: 38px;
+  border: 1px solid rgb(255, 166, 0);
+  border-radius: 3px;
+}
+
+.idk-2{
+  background-color: #2b5b84;
+  width: 70%;
+  margin: auto;
+  padding: 1.5em 1.75em;
+  margin-top: 20px;
+}
